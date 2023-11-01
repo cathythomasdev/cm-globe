@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'ITC Kabel W01 Medium';
+  src: url(assets/fonts/131dd99924b3162c.woff2) format('woff2');
+  src: url(assets/fonts/6e4b55289ad5fb6e.woff) format('woff')
+}
+
+/* 
+costelloGrey: hsla(220, 4%, 49%, 1)
+textGrey: hsla(240, 1%, 31%, 1)
+purple:  rgba(161,32,106,1)
+*/
+
+body {
+  font-family: Public Sans, sans-serif;
+  font-size: 16px;
+  background-color: #501945;
+  line-height: 1.5rem;
+  color: #ffffff;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: rgba(242, 142, 123);
+}
+
+
+.main-wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+section {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.office-section {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  width: max-content;
+}
+
+.office-address {
+  display: flex;
+  flex-direction: column;
+}
+
+.office-address a {
+  color: rgba(242, 142, 123);
+  text-decoration: underline;
+  cursor: pointer; 
+}
+
+
+.office-title {
+  font-family: 'ITC Kabel W01 Medium', Tahoma, sans-serif;
+  font-size: 24px;
+  line-height: 2rem;
+  margin-bottom: 10px;
+}
+
+td, th {
+  vertical-align: top;
+  line-height: 2rem;
+  text-align: left;
+  font-weight: 400;
+}
+
+th {
+  font-family: 'ITC Kabel W01 Medium', Tahoma, sans-serif;
+  font-size: 20px;
+  width: 80px;
+}
+
+td { 
+  font-family: Public Sans, Tahoma, sans-serif;
+  color: #F9EEAC;
+  padding-bottom: 30px;
+}
+
+.highlight {
+  color: rgba(242, 142, 123);
+  text-underline-offset: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  div.main-wrapper {
+    flex-direction: column;
+  }
+} 
+
+
+
+
+/*# sourceMappingURL=main.css.map*/
