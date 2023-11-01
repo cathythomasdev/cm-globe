@@ -1,14 +1,13 @@
 @font-face {
   font-family: 'ITC Kabel W01 Medium';
-  src: url(assets/fonts/131dd99924b3162c.woff2) format('woff2');
-  src: url(assets/fonts/6e4b55289ad5fb6e.woff) format('woff')
+  src: url('./assets/fonts/adbacd36-313c-4321-b4ae-2578f3bd3f6d.woff2') format('woff2');
+  src: url('./assets/fonts/a04bf07c-adca-42b7-bd93-24f195c1bff1.woff') format('woff')
 }
 
-/* 
-costelloGrey: hsla(220, 4%, 49%, 1)
-textGrey: hsla(240, 1%, 31%, 1)
-purple:  rgba(161,32,106,1)
-*/
+#globe-box {
+  height: 500px;
+  width: 500px;
+}
 
 body {
   font-family: Public Sans, sans-serif;
@@ -105,6 +104,9 @@ td {
     flex-direction: column;
   }
 } 
+
+
+
 
 
 
