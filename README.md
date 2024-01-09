@@ -2,4 +2,4 @@
 
 ## To run locally...
 
-Save index.html main.css and bundle.2730b1a23f9efec6.js in the same local folder. Open index.html.
+Save index.html main.css and bundle.a9a95f4c96418ba4.js in the same local folder. Open index.html.
